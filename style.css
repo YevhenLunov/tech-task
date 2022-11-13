@@ -74,6 +74,10 @@ button {
   margin: 3rem 0;
 }
 
+.p-3{
+  padding: 3rem;
+}
+
 .content {
   max-width: 1300px;
   margin: 0 auto;
@@ -268,4 +272,17 @@ footer {
 
 .slide-menu{
   display:none;
+}
+
+.about{
+  display: flex;
+}
+
+.about h2{
+  font-size: 62px;
+}
+
+.about p{
+  font-size: 22px;
+  color: var(--gray);
 }
