@@ -1,284 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style-mobile.css" />
-  </head>
-  <body>
-    <div id="slide-menu" class="slide-menu row">
-      <div class="col">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-mobile.css">
+</head>
+
+<body>
+  <div id="slide-menu" class="slide-menu row">
+    <div class="col">
+      <a href="#">Home</a>
+      <a href="#">Episodes</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <a href="#"><img src="./img/cross-exit.svg" alt="exit"></a>
+  </div>
+  <nav class="space-between">
+    <img src="./img/castaway-logo.svg" alt="castaway-logo">
+    <div class="links">
+      <a href="#">Home</a>
+      <a href="#">Episodes</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <a href="#slide-menu" class="burger col"><span></span><span></span><span></span></a>
+  </nav>
+  <div class="screen-1 row center fluid content">
+    <div class="fluid row content-right">
+      <img class="first-image" src="./img/first-image.jfif" alt="first-image">
+    </div>
+    <div class="content-block-1 col fluid">
+      <p>
+        Take your <br>
+        podcast to the <br>
+        <span>next</span> <strong>level</strong>
+      </p>
+      <div class="listen-block col">
+        <span>Listen on</span>
+        <div class="row gap-1">
+          <img src="./img/spotify-logo.svg" alt="spotify-logo">
+          <img src="./img/second-logo.svg" alt="second-logo">
+          <img src="./img/sound-cloud-logo.svg" alt="sound-cloud-logo">
+          <img src="./img/purple-logo.svg" alt="purple-logo">
+          <img src="./img/radio-logo.svg" alt="radio-logo">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cards-block content">
+    <div class="row space-between center-y">
+      <p>Latest episodes</p>
+      <button>View all episodes</button>
+    </div>
+    <div class="cards-block-element gap-3 row m-y-3">
+      <img src="./img/mixer.jfif" alt="mixer">
+      <div class="col gap-1 align-start">
+        <span class="badge">Gear</span>
+        <span class="badge-episode">Episode 3</span>
+        <p>Should you get <br>outboard audio gear?</p>
+        <span class="description-badge-episode">
+          Is hardware really worth it when it comes to podcasting? The answer
+          is...it <br>
+          depends. Here’s our reasons on why you might want to consider
+          picking <br>
+          something up.
+        </span>
+        <button>View episodes detail</button>
+      </div>
+    </div>
+    <div class="cards-block-element gap-3 row m-y-3">
+      <img src="./img/mic.jfif" alt="mic">
+      <div class="col gap-1 align-start">
+        <span class="badge">Tips & Tricks</span>
+        <span class="badge-episode">Episode 2</span>
+        <p>Mic tricks to take <br>you to the next level</p>
+        <span class="description-badge-episode">
+          Stop rolling with those default settings on your mic. These small
+          tweaks will <br>
+          take you from sounding good to great.
+        </span>
+        <button>View episodes detail</button>
+      </div>
+    </div>
+    <div class="cards-block-element gap-3 row m-y-3">
+      <img src="./img/third-image.jfif" alt="third-image">
+      <div class="col gap-1 align-start">
+        <span class="badge">Gear</span>
+        <span class="badge-episode">Episode 1</span>
+        <p>The best microphone <br>under $200</p>
+        <span class="description-badge-episode">
+          With so many microphones on the market, how are you supposed to know
+          <br>
+          what’s the best? Take a look at our top picks.
+        </span>
+        <button>View episodes detail</button>
+      </div>
+    </div>
+  </div>
+  <div class="screen-2 row center fluid content">
+    <div class="screen-2-description col">
+      <button>
+        <img class="screen-2-description-img" src="./img/button.png" alt="button">
+      </button>
+      <span class="screen-2-description-badge">Meet your host</span>
+      <p class="screen-2-description-name">Jacob Paulaner</p>
+      <span class="screen-2-description-about">
+        Jacob has a background in audio engineering, and has <br>
+        been podcasting since the early days.
+      </span>
+      <span class="screen-2-description-about">
+        He’s here to help you level up your game by sharing <br>
+        everything he’s learned along the way.
+      </span>
+    </div>
+    <div class="screen-2-right fluid row content-right">
+      <img src="./img/image4.jfif" alt="image4">
+    </div>
+  </div>
+  <div class="form-block row space-between center content">
+    <div class="form-block-text">
+      <span class="screen-2-description-badge">Email Newsletter</span>
+      <p class="screen-2-description-name">
+        Subscribe <br>
+        for updates
+      </p>
+    </div>
+    <form class="form-block-input gap-1 col align-start">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <button>Submit</button>
+    </form>
+  </div>
+  <div class="rate content row">
+    <div class="rate-block">
+      <div class="rate-block-stars">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+      </div>
+      <p class="rate-block-review">
+        I can’t recommend <br>
+        this podcast <br>
+        enough
+      </p>
+      <span class="rate-block-name">Betty Lacey</span>
+    </div>
+    <div class="rate-block">
+      <div class="rate-block-stars">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+      </div>
+      <p class="rate-block-review">
+        Jacob is the best <br>
+        in the business
+      </p>
+      <span class="rate-block-name">Adam Driver</span>
+    </div>
+    <div class="rate-block">
+      <div class="rate-block-stars">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+      </div>
+      <p class="rate-block-review">
+        A wealth of audio <br>
+        knowledge
+      </p>
+      <span class="rate-block-name">Marcus Brown</span>
+    </div>
+    <div class="rate-block">
+      <div class="rate-block-stars">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+      </div>
+      <p class="rate-block-review">
+        Every episode is a <br>
+        gem!
+      </p>
+      <span class="rate-block-name">Jessica Knowl</span>
+    </div>
+    <div class="rate-block">
+      <div class="rate-block-stars">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+      </div>
+      <p class="rate-block-review">
+        Whoa whoa, let me <br>
+        take some notes!
+      </p>
+      <span class="rate-block-name">Scott Adams</span>
+    </div>
+    <div class="rate-block">
+      <div class="rate-block-stars">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+        <img src="./img/star.svg" alt="star">
+      </div>
+      <p class="rate-block-review">
+        I’ve upped my <br>
+        game considerably <br>
+        since I started <br>
+        listening
+      </p>
+      <span class="rate-block-name">Steven Blast</span>
+    </div>
+  </div>
+  <footer class="footer row">
+    <div class="col">
+      <img class="logo" src="./img/castaway-logo.svg" alt="castaway-logo">
+      <div>
+        <img src="./img/instargram-logo.svg" alt="instargram-logo">
+        <img src="./img/twitter-logo.svg" alt="twitter-logo">
+        <img src="./img/facebook-logo.svg" alt="facebook-logo">
+      </div>
+    </div>
+    <div class="row gap-3">
+      <div class="links col">
         <a href="#">Home</a>
-        <a href="#">Episodes</a>
         <a href="#">About</a>
+        <a href="#">Episodes</a>
         <a href="#">Contact</a>
       </div>
-      <a href="#"><img src="./img/cross-exit.svg" alt="exit" /></a>
-    </div>
-    <nav class="space-between">
-      <img src="./img/castaway-logo.svg" alt="castaway-logo" />
-      <div class="links">
-        <a href="#">Home</a>
-        <a href="#">Episodes</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-      <a href="#slide-menu" class="burger col"
-        ><span></span><span></span><span></span
-      ></a>
-    </nav>
-    <div class="screen-1 row center fluid content">
-      <div class="fluid row content-right">
-        <img
-          class="first-image"
-          src="./img/first image.jfif"
-          alt="first-image"
-        />
-      </div>
-      <div class="content-block-1 col fluid">
-        <p>
-          Take your <br />
-          podcast to the <br />
-          <span>next</span> <strong>level</strong>
-        </p>
-        <div class="listen-block col">
-          <span>Listen on</span>
-          <div class="row gap-1">
-            <img src="./img/spotify-logo.svg" alt="spotify-logo" />
-            <img src="./img/second-logo.svg" alt="second-logo" />
-            <img src="./img/sound-cloud-logo.svg" alt="sound-cloud-logo" />
-            <img src="./img/purple-logo.svg" alt="purple-logo" />
-            <img src="./img/radio-logo.svg" alt="radio-logo" />
-          </div>
-        </div>
+      <div class="links col">
+        <a href="#">Style guide</a>
+        <a href="#">Instructions</a>
+        <a href="#">Changelog</a>
+        <a href="#">Credit</a>
+        <a href="#">Powered by Webflow</a>
+        <a href="#">Licenses</a>
       </div>
     </div>
-    <div class="cards-block content">
-      <div class="row space-between center-y">
-        <p>Latest episodes</p>
-        <button>View all episodes</button>
-      </div>
-      <div class="cards-block-element gap-3 row m-y-3">
-        <img src="./img/mixer.jfif" alt="mixer" />
-        <div class="col gap-1 align-start">
-          <span class="badge">Gear</span>
-          <span class="badge-episode">Episode 3</span>
-          <p>Should you get <br />outboard audio gear?</p>
-          <span class="description-badge-episode">
-            Is hardware really worth it when it comes to podcasting? The answer
-            is...it <br />
-            depends. Here’s our reasons on why you might want to consider
-            picking <br />
-            something up.
-          </span>
-          <button>View episodes detail</button>
-        </div>
-      </div>
-      <div class="cards-block-element gap-3 row m-y-3">
-        <img src="./img/mic.jfif" alt="mic" />
-        <div class="col gap-1 align-start">
-          <span class="badge">Tips & Tricks</span>
-          <span class="badge-episode">Episode 2</span>
-          <p>Mic tricks to take <br />you to the next level</p>
-          <span class="description-badge-episode">
-            Stop rolling with those default settings on your mic. These small
-            tweaks will <br />
-            take you from sounding good to great.
-          </span>
-          <button>View episodes detail</button>
-        </div>
-      </div>
-      <div class="cards-block-element gap-3 row m-y-3">
-        <img src="./img/third image.jfif" alt="third-image" />
-        <div class="col gap-1 align-start">
-          <span class="badge">Gear</span>
-          <span class="badge-episode">Episode 1</span>
-          <p>The best microphone <br />under $200</p>
-          <span class="description-badge-episode">
-            With so many microphones on the market, how are you supposed to know
-            <br />
-            what’s the best? Take a look at our top picks.
-          </span>
-          <button>View episodes detail</button>
-        </div>
-      </div>
+    <div class="row gap-1">
+      <img src="./img/spotify-logo.svg" alt="spotify-logo">
+      <img src="./img/second-logo.svg" alt="second-logo">
+      <img src="./img/sound-cloud-logo.svg" alt="sound-cloud-logo">
+      <img src="./img/purple-logo.svg" alt="purple-logo">
+      <img src="./img/radio-logo.svg" alt="radio-logo">
     </div>
-    <div class="screen-2 row center fluid content">
-      <div class="screen-2-description col">
-        <button>
-          <img
-            class="screen-2-description-img"
-            src="./img/button.png"
-            alt="button"
-          />
-        </button>
-        <span class="screen-2-description-badge">Meet your host</span>
-        <p class="screen-2-description-name">Jacob Paulaner</p>
-        <span class="screen-2-description-about">
-          Jacob has a background in audio engineering, and has <br />
-          been podcasting since the early days.
-        </span>
-        <span class="screen-2-description-about">
-          He’s here to help you level up your game by sharing <br />
-          everything he’s learned along the way.
-        </span>
-      </div>
-      <div class="screen-2-right fluid row content-right">
-        <img src="./img/image4.jfif" alt="image4" />
-      </div>
+    <div class="col">
+      <p>Yevhen Lunov</p>
+      <a href="https://github.com/YevhenLunov">Github</a>
+      <a href="https://www.figma.com/file/i24VftwiSqlXptwvikZqlD/Castaway-%2B?node-id=0%3A1">Original design</a>
     </div>
-    <div class="form-block row space-between center content">
-      <div class="form-block-text">
-        <span class="screen-2-description-badge">Email Newsletter</span>
-        <p class="screen-2-description-name">
-          Subscribe <br />
-          for updates
-        </p>
-      </div>
-      <form class="form-block-input gap-1 col align-start">
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email" />
-        <button>Submit</button>
-      </form>
-    </div>
-    <div class="rate content row">
-      <div class="rate-block">
-        <div class="rate-block-stars">
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-        </div>
-        <p class="rate-block-review">
-          I can’t recommend <br />
-          this podcast <br />
-          enough
-        </p>
-        <span class="rate-block-name">Betty Lacey</span>
-      </div>
-      <div class="rate-block">
-        <div class="rate-block-stars">
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-        </div>
-        <p class="rate-block-review">
-          Jacob is the best <br />
-          in the business
-        </p>
-        <span class="rate-block-name">Adam Driver</span>
-      </div>
-      <div class="rate-block">
-        <div class="rate-block-stars">
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-        </div>
-        <p class="rate-block-review">
-          A wealth of audio <br />
-          knowledge
-        </p>
-        <span class="rate-block-name">Marcus Brown</span>
-      </div>
-      <div class="rate-block">
-        <div class="rate-block-stars">
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-        </div>
-        <p class="rate-block-review">
-          Every episode is a <br />
-          gem!
-        </p>
-        <span class="rate-block-name">Jessica Knowl</span>
-      </div>
-      <div class="rate-block">
-        <div class="rate-block-stars">
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-        </div>
-        <p class="rate-block-review">
-          Whoa whoa, let me <br />
-          take some notes!
-        </p>
-        <span class="rate-block-name">Scott Adams</span>
-      </div>
-      <div class="rate-block">
-        <div class="rate-block-stars">
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-          <img src="./img/star.svg" alt="star" />
-        </div>
-        <p class="rate-block-review">
-          I’ve upped my <br />
-          game considerably <br />
-          since I started <br />
-          listening
-        </p>
-        <span class="rate-block-name">Steven Blast</span>
-      </div>
-    </div>
-    <footer class="footer row">
-      <div class="col">
-        <img class="logo" src="./img/castaway-logo.svg" alt="castaway-logo" />
-        <div>
-          <img src="./img/instargram-logo.svg" alt="instargram-logo" />
-          <img src="./img/twitter-logo.svg" alt="twitter-logo" />
-          <img src="./img/facebook-logo.svg" alt="facebook-logo" />
-        </div>
-      </div>
-      <div class="row gap-3">
-        <div class="links col">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Episodes</a>
-          <a href="#">Contact</a>
-        </div>
-        <div class="links col">
-          <a href="#">Style guide</a>
-          <a href="#">Instructions</a>
-          <a href="#">Changelog</a>
-          <a href="#">Credit</a>
-          <a href="#">Powered by Webflow</a>
-          <a href="#">Licenses</a>
-        </div>
-      </div>
-      <div class="row gap-1">
-        <img src="./img/spotify-logo.svg" alt="spotify-logo" />
-        <img src="./img/second-logo.svg" alt="second-logo" />
-        <img src="./img/sound-cloud-logo.svg" alt="sound-cloud-logo" />
-        <img src="./img/purple-logo.svg" alt="purple-logo" />
-        <img src="./img/radio-logo.svg" alt="radio-logo" />
-      </div>
-      <div class="col">
-        <p>Yevhen Lunov</p>
-        <a href="https://github.com/YevhenLunov">Github</a>
-        <a
-          href="https://www.figma.com/file/i24VftwiSqlXptwvikZqlD/Castaway-%2B?node-id=0%3A1"
-          >Original design</a
-        >
-      </div>
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>
