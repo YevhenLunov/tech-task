@@ -1,3 +1,3 @@
 # tech-task
 
-## my technical task for onyx
+## my technical task for onix
